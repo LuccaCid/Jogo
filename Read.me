@@ -1,0 +1,10 @@
+
+No JS foi adicionada a classe 'animar' a personagem toda a vez que clicarem na pagina
+
+A função pulo() adiciona 'animar' á div do personagem, o EventListener reconhece o click do usuario e executa a função pulo
+
+A função removerPulo termina a animaçao e é executada pelo setTimeout.
+
+Como estava acontecendo um bug quando o usuario clicava durante a animaçao, foi adicionado --if(personagem.classList == 'animar'){return;}-- para que nada aconteça enquanto a animaçao ocorre.
+
+A funçao check() foi criada para acabar com o jogo se o personagem esbarrar no bloqueio.
